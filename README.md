@@ -14,3 +14,5 @@
  - React-Router-Dom [React Router DOM](https://www.npmjs.com/package/react-router-dom)
  `npm i react-router-dom`
 
+ - Redux-toolbox [Redux Toolbox](https://redux-toolkit.js.org/introduction/getting-started#an-existing-app)
+ `npm install @reduxjs/toolkit`
