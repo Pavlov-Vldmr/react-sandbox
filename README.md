@@ -16,3 +16,6 @@
 
  - Redux-toolbox [Redux Toolbox](https://redux-toolkit.js.org/introduction/getting-started#an-existing-app)
  `npm install @reduxjs/toolkit`
+  - Redux-types `npm install @types/react-redux`
+  - ts-loader `npm install --save-dev ts-loader`
+  - react-redux `npm install --save redux react-redux`
