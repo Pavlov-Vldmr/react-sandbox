@@ -15,5 +15,25 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "no-console": ["error"],
+    curly: "error",
+    "import/prefer-default-export": "off",
+    "react/jsx-no-useless-fragment": ["error", { allowExpressions: true }],
+    "no-unused-expressions": "error",
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type",
+        ],
+        "newlines-between": "always-and-inside-groups",
+      },
+    ],
   },
 };
